@@ -214,6 +214,11 @@ class Command(BaseCommand):
         for t in pagesoup.findAll('tr',{'class':'tm-row'}):
             try:
                 team = Team.objects.get(league_key=t['data-teamkey'])
+                if team.url:
+                    # skip if this team already has a url
+                    # must do this for the WAGS site which has multiple
+                    # seasons loaded
+                    continue
             except Team.DoesNotExist:
                 team = Team()
                 team.league_key = t['data-teamkey']

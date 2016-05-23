@@ -58,3 +58,4 @@ node_modules/
 work_local
 ve
 .vagrant
+settings_local.py
