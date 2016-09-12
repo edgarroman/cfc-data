@@ -136,6 +136,7 @@ FIELD_ALIAS = {
     'Watkins Elementary School   DC #1' : 'Watkins',
     'Ridge Road Rec Center  DC Full sided field': 'Ridge Road Rec Center',
     'Randall Recreation Center Randall Full sided field': 'Randall Rec Center',
+    'Randall Recreation Center #1 Full': 'Randall Rec Center',
     'Randall Rec Center': 'Randall Rec Center',
     'Randall Junior High School #1': 'Randall Rec Center',
     'Trinidad Recreation Center Full Sided': 'Trinidad Rec Center',

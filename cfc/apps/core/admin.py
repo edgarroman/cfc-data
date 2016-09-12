@@ -25,6 +25,7 @@ class GameWeekListFilter(admin.SimpleListFilter):
         """
         return (
             ('NextWeekend', 'Next Weekend'),
+            ('NextNextWeekend', 'Weekend After Next'),
         )
 
     def queryset(self, request, queryset):
@@ -40,6 +41,12 @@ class GameWeekListFilter(admin.SimpleListFilter):
             delta = datetime.timedelta(7-now_day.weekday())
             next_weekend = datetime.datetime.now() + delta
             return queryset.filter(schedule__gt=now_day,schedule__lt=next_weekend)
+        elif self.value() == 'NextNextWeekend':
+            now_day = datetime.datetime.now()
+            delta = datetime.timedelta(14-now_day.weekday())
+            next_weekend = datetime.datetime.now() + delta
+            return queryset.filter(schedule__gt=now_day,schedule__lt=next_weekend)
+
 
 class GameTeamFilter(admin.SimpleListFilter):
     title = 'CFC Team'
