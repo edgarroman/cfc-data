@@ -239,8 +239,15 @@ class Command(BaseCommand):
         for t in settings.LEAGUE_EDP_TEAMS:
             self._process_edp_schedule(t['team'].title(),t['url'])
 
+        print ('Done with EDP moving on to other leagues')
         for l in settings.LEAGUE_CFC_PAGES:
-            league = League.objects.get(name=l['league'])
+            print (l)
+            try:
+                league = League.objects.get(name=l['league'])
+            except League.DoesNotExist:
+                league = League()
+                league.name=l['league']
+                league.save()
             pagesoup = self._get_raw_page(l['url'])
             # Find root url
             parsed_uri = urlparse( l['url'] )

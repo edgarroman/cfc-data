@@ -120,14 +120,14 @@ USE_TZ = True
 LEAGUE_CFC_PAGES = [
     { 'league' : 'ODSL', 'url' : 'http://www.odsl.org/teams/club/17029528.html'},
     { 'league' : 'NCSL', 'url' : 'http://www.ncsl-soccer.com/teams/club/15599440.html'},
-    { 'league' : 'WAGS', 'url' : 'http://www.wagsl.com/teams/club/74881904.html'},
 ]
+    #{ 'league' : 'WAGS', 'url' : 'http://www.wagsl.com/teams/club/74881904.html'},
 
 # EDP Teams are a PITA so we have to list them individually
 LEAGUE_EDP_TEAMS = [
-    { 'team': 'CAPITALFC DC COSMOS', 'url': 'http://events.gotsport.com/events/schedule.aspx?eventid=49344&FieldID=108414&applicationID=3186104&action=Go'},
-    { 'team': 'CAPITALFC UNITED RED', 'url': 'http://events.gotsport.com/events/schedule.aspx?eventid=49344&FieldID=108414&applicationID=3247199&action=Go'},
-    { 'team': 'CAPITAL FUTBOL DIPLOMATS', 'url': 'http://events.gotsport.com/events/schedule.aspx?eventid=49344&FieldID=0&applicationID=3185933&action=Go'},
+    #{ 'team': 'CAPITALFC DC COSMOS', 'url': 'http://events.gotsport.com/events/schedule.aspx?eventid=49344&FieldID=108414&applicationID=3186104&action=Go'},
+    { 'team': 'CAPITALFC UNITED RED 02B', 'url': 'http://events.gotsport.com/events/schedule.aspx?eventid=53136&FieldID=0&applicationID=3538309&action=Go'},
+    #{ 'team': 'CAPITAL FUTBOL DIPLOMATS', 'url': 'http://events.gotsport.com/events/schedule.aspx?eventid=49344&FieldID=0&applicationID=3185933&action=Go'},
 ]
 
 FIELD_ALIAS = {
