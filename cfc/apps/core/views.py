@@ -5,8 +5,8 @@ from cfc.apps.core.models import Game
 import datetime
 from itertools import groupby
 
-#DAYSTIMEWINDOW = 7
-DAYSTIMEWINDOW = 70
+DAYSTIMEWINDOW = 7
+#DAYSTIMEWINDOW = 70
 
 def extract_date(game):
     return game.schedule.date()
@@ -18,8 +18,8 @@ def home(request):
 
     context = dict()
 
-#    now_day = datetime.datetime.now()
-    now_day = datetime.datetime(2016,9,1)
+    now_day = datetime.datetime.now()
+#    now_day = datetime.datetime(2016,9,1)
     delta = datetime.timedelta(DAYSTIMEWINDOW-now_day.weekday())
     next_weekend = datetime.datetime.now() + delta
     club = 'CFC'
