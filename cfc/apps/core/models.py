@@ -59,3 +59,4 @@ class Game(TimeStampedModel):
     def __str__(self):
         return self.schedule.strftime("%Y %m %d T %I %M")
 
+

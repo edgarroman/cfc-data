@@ -34,8 +34,6 @@ class GameWeekListFilter(admin.SimpleListFilter):
         provided in the query string and retrievable via
         `self.value()`.
         """
-        # Compare the requested value (either '80s' or '90s')
-        # to decide how to filter the queryset.
         if self.value() == 'NextWeekend':
             now_day = datetime.datetime.now()
             delta = datetime.timedelta(7-now_day.weekday())
