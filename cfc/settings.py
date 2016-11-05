@@ -196,7 +196,7 @@ LOGGING = {
         'file': {
             'level': 'INFO',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': 'spark.log',
+            'filename': 'app.log',
             'maxBytes' : U_LOGFILE_SIZE,
             'backupCount' : U_LOGFILE_COUNT,
             'formatter': 'verbose'
@@ -212,7 +212,7 @@ LOGGING = {
             'handlers':['file','console'],
             'level':'INFO',
         },
-        'spark.apps': {
+        'app.apps': {
             'handlers': ['file','console'],
             'level': 'INFO',
         },
@@ -222,6 +222,6 @@ LOGGING = {
 
 # Must be the last item in this list to override environment settings
 try:
-    from spark.settings_local import *
+    from settings_local import *
 except:
     pass
