@@ -8,7 +8,7 @@ from collections import defaultdict
 from django.views.decorators.clickjacking import xframe_options_exempt
 
 DAYSTIMEWINDOW = 7
-#DAYSTIMEWINDOW = 70
+#DAYSTIMEWINDOW = 90
 
 def extract_date(game):
     return game.schedule.date()
@@ -24,8 +24,8 @@ def home(request):
 
     context = dict()
 
-#    now_day = datetime.datetime.now()
-    now_day = datetime.datetime(2016,10,1)
+    now_day = datetime.datetime.now()
+#    now_day = datetime.datetime(2016,9,1)
     delta = datetime.timedelta(DAYSTIMEWINDOW-now_day.weekday())
     next_weekend = now_day + delta
     print ("next_weekend = %s" % next_weekend)
@@ -43,30 +43,21 @@ def home(request):
 
     days = defaultdict(dict)
     for day, games_in_day in groupby(games, key=extract_date):
-        print ("processing day: %s" % day)
 
         games_on_field_per_day = defaultdict(list)
 
         for field, games_on_field in groupby(games_in_day, key=extract_field):
-            print ("processing field: %s" % field)
 
-            field_game_list = []
             for game in games_on_field:
-                print ('processing game: %s' % game)
-                field_game_list.append(game)
-                print ('now field_game_list = %s' % pp.pprint(field_game_list))
+                games_on_field_per_day[field].append(game)
 
-            games_on_field_per_day[field] = field_game_list
-            pp.pprint(games_on_field_per_day)
-
-        days[day] = games_on_field_per_day
-
+        days[day] = dict(games_on_field_per_day)
 
     #########################################################################
     # Validation
 
-    print('>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<')
-    pp.pprint(days)
+#    print('>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<')
+#    pp.pprint(days)
     context['days'] =  dict(days)
 
     return render(request, 'home.html', context)
