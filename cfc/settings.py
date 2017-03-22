@@ -126,7 +126,7 @@ LEAGUE_CFC_PAGES = [
 # EDP Teams are a PITA so we have to list them individually
 LEAGUE_EDP_TEAMS = [
     #{ 'team': 'CAPITALFC DC COSMOS', 'url': 'http://events.gotsport.com/events/schedule.aspx?eventid=49344&FieldID=108414&applicationID=3186104&action=Go'},
-    { 'team': 'CAPITALFC UNITED RED 02B', 'url': 'http://events.gotsport.com/events/schedule.aspx?eventid=53136&FieldID=0&applicationID=3538309&action=Go'},
+    #{ 'team': 'CAPITALFC UNITED RED 02B', 'url': 'http://events.gotsport.com/events/schedule.aspx?eventid=53136&FieldID=0&applicationID=3538309&action=Go'},
     #{ 'team': 'CAPITAL FUTBOL DIPLOMATS', 'url': 'http://events.gotsport.com/events/schedule.aspx?eventid=49344&FieldID=0&applicationID=3185933&action=Go'},
 ]
 
