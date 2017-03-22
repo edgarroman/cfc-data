@@ -222,6 +222,6 @@ LOGGING = {
 
 # Must be the last item in this list to override environment settings
 try:
-    from settings_local import *
+    from cfc.settings_local import *
 except:
     pass
