@@ -63,7 +63,7 @@ class Command(BaseCommand):
         #
 
         # Find the table within the table
-        schedt = pagesoup.find('table',{'width':'98%'}).table
+        schedt = pagesoup.find('table',{'width':'95%'}).table
 
         # Get list of game dates:
         game_dates = schedt.findAll('font',{'class':'PageHeading'})
@@ -79,7 +79,12 @@ class Command(BaseCommand):
             column2 = column1.next_sibling
             game_time = column2.text.strip()
             print ("game_time = %s" % game_time)
-            game_date_notz = parse(gd.text.strip() + "T" + game_time)
+            try:
+                game_date_notz = parse(gd.text.strip() + "T" + game_time)
+            except ValueError:
+                print ("Bad time found - will skip game")
+                continue
+
             eastern=timezone('US/Eastern')
             game_date = eastern.localize(game_date_notz)
             print (game_date)
