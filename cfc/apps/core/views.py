@@ -31,7 +31,7 @@ def home(request):
     print ("next_weekend = %s" % next_weekend)
     club = 'CFC'
 
-    games = Game.objects.filter(home_team__club=club,
+    games = Game.objects.filter(field__cfc_home_field=True,
         schedule__gt=now_day,
         schedule__lt=next_weekend).order_by('schedule','field')
 

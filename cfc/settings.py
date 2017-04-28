@@ -125,7 +125,8 @@ LEAGUE_CFC_PAGES = [
 # EDP Teams are a PITA so we have to list them individually
 LEAGUE_EDP_TEAMS = [
     {
-        'team' : 'CAPITALFC STRIKERS RED',
+        'team' : 'CAPITAL FUTBOL STRIKERS RED',
+#        'team' : 'CAPITALFC STRIKERS RED',
         'url': 'http://events.gotsport.com/events/schedule.aspx?eventid=57134&FieldID=0&applicationID=3843293&action=Go'
     },
     {
@@ -151,17 +152,25 @@ FIELD_ALIAS = {
     'Watkins Elementary School  DC #1' : 'Watkins',
     'Watkins Elementary School   DC #1' : 'Watkins',
     'Watkins Rec Center' : 'Watkins',
+
+    'Ridge Road Rec Center': 'Ridge Road Rec Center',
     'Ridge Road Rec Center  DC Full sided field': 'Ridge Road Rec Center',
     'Ridge Road Rec Center  DC full-sided field': 'Ridge Road Rec Center', # Warning control char included
     'Ridge Rd Recreation DC #1' : 'Ridge Road Rec Center',
+
     'Randall Recreation Center Randall Full sided field': 'Randall Rec Center',
     'Randall Recreation Center #1 Full': 'Randall Rec Center',
     'Randall Rec Center': 'Randall Rec Center',
     'Randall Junior High School #1': 'Randall Rec Center',
+
     'Trinidad Recreation Center Full Sided': 'Trinidad Rec Center',
     'Trinidad Rec Center': 'Trinidad Rec Center',
     'Trinidad Rec Center #1' : 'Trinidad Rec Center',
+
     'Jefferson Middle School' : 'Jefferson Middle School',
+
+    'Rosedale Rec Center' : 'Rosedale Rec Center',
+    'Rosedale Rec Center, DC Small sided' : 'Rosedale Rec Center',
     'Rosedale Rec Center  DC Small sided field 1' : 'Rosedale Rec Center',
     'Rosedale Recreation Center Field' : 'Rosedale Rec Center',
 }

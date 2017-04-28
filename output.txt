@@ -1,0 +1,551 @@
+running refresh
+===================================
+Team does not match page!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/2/2017</font>
+#9512
+game_time = 9:00 AM
+2017-04-02 09:00:00-04:00
+Alexandria '05B Red
+Capital Futbol Strikers Red
+=====> name = Ft. Ward Park Turf
+Ft. Ward Park Turf
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/8/2017</font>
+#9516 Waldorf Will Wear Orange
+game_time = 1:00 PM
+2017-04-08 13:00:00-04:00
+Waldorf Sc '05 Boys - Orange
+Capital Futbol Strikers Red
+=====> name = Bryantown Sports Complex Field 13
+Bryantown Sports Complex Field 13
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/22/2017</font>
+#9520
+game_time = 1:30 PM
+2017-04-22 13:30:00-04:00
+Capital Futbol Strikers Red
+Barcelona Usa Md Barcelona Usa Blue 05
+=====> name = Rosedale Rec Center
+Rosedale Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/23/2017</font>
+#9507
+game_time = 5:00 PM
+2017-04-23 17:00:00-04:00
+Brausa United Futebol Bufc 05
+Capital Futbol Strikers Red
+=====> name = Concordia Preparatory School #1
+Concordia Preparatory School #1
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/29/2017</font>
+#12079
+game_time = 3:00 PM
+2017-04-29 15:00:00-04:00
+Capital Futbol Strikers Red
+Sac United White
+=====> name = Rosedale Recreation Center Field
+Rosedale Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/7/2017</font>
+#9526
+game_time = 5:30 PM
+2017-05-07 17:30:00-04:00
+Capital Futbol Strikers Red
+Harford Fc United Hfc United (Hill)
+=====> name = Watkins Rec Center
+Watkins
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/13/2017</font>
+#9531
+game_time = 11:00 AM
+2017-05-13 11:00:00-04:00
+Baltimore Bays (Formally Phwm) Shockwave
+Capital Futbol Strikers Red
+=====> name = Stansbury Park #1
+Stansbury Park #1
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/21/2017</font>
+#9534
+game_time = 5:30 PM
+2017-05-21 17:30:00-04:00
+Capital Futbol Strikers Red
+Ellicott City City 2005 Boys Black
+=====> name = Watkins Rec Center
+Watkins
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">6/3/2017</font>
+#9538
+game_time = 1:30 PM
+2017-06-03 13:30:00-04:00
+Capital Futbol Strikers Red
+Champions United Infantil E
+=====> name = Rosedale Rec Center
+Rosedale Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">3/19/2017</font>
+#2764
+game_time = 3:30 PM
+2017-03-19 15:30:00-04:00
+Capitalfc United Red 02B
+Brausa United Futebol Bufc Blue 02
+=====> name = Trinidad Rec Center #1
+Trinidad Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">3/25/2017</font>
+#2756
+game_time = 2:00 PM
+2017-03-25 14:00:00-04:00
+Bethesda Sc South 02
+Capitalfc United Red 02B
+=====> name = Walter Johnson HS Turf
+Walter Johnson HS Turf
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/29/2017</font>
+#2769
+game_time = 2:30 PM
+2017-04-29 14:30:00-04:00
+Takoma Park Friends United
+Capitalfc United Red 02B
+=====> name = Walker Mill Regional Park
+Walker Mill Regional Park
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/6/2017</font>
+#2776
+game_time = 3:00 PM
+2017-05-06 15:00:00-04:00
+Capitalfc United Red 02B
+Pipeline Sc Black
+=====> name = Rosedale Recreation Center Field
+Rosedale Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/13/2017</font>
+#2780
+game_time = 3:00 PM
+2017-05-13 15:00:00-04:00
+Capitalfc United Red 02B
+Bethesda Sc Blue 02
+=====> name = Rosedale Recreation Center Field
+Rosedale Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/14/2017</font>
+#2759
+game_time = 5:15 PMRescheduled
+Bad time found - will skip game
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/21/2017</font>
+#2768
+game_time = 3:30 PM
+2017-05-21 15:30:00-04:00
+Capitalfc United Red 02B
+Baltimore Celtic Bceltic 2002
+=====> name = Trinidad Rec Center #1
+Trinidad Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">3/26/2017</font>
+#3925
+game_time = 2:00 PM
+2017-03-26 14:00:00-04:00
+Lower Dauphin Sa Ldc Patriots 01
+Capitalfc United Red 01B
+=====> name = Lower Dauphin Middle School #1
+Lower Dauphin Middle School #1
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/7/2017</font>
+#3956
+game_time = 7:30 PM
+2017-04-07 19:30:00-04:00
+Calvert Csa Premier 01B
+Capitalfc United Red 01B
+=====> name = BG&E; Field #01
+BG&E; Field #01
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/9/2017</font>
+#3934
+game_time = 3:30 PM
+2017-04-09 15:30:00-04:00
+Capitalfc United Red 01B
+Fcusa Maryland Black 01
+=====> name = Trinidad Rec Center
+Trinidad Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/23/2017</font>
+#3940
+game_time = 3:30 PM
+2017-04-23 15:30:00-04:00
+Capitalfc United Red 01B
+Casa 01M Elite
+=====> name = Trinidad Rec Center
+Trinidad Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/30/2017</font>
+#3943
+game_time = 3:00 PM
+2017-04-30 15:00:00-04:00
+Baltimore Bays United 2001
+Capitalfc United Red 01B
+=====> name = Carsins Run Fields Field B
+Carsins Run Fields Field B
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/7/2017</font>
+#3950
+game_time = 1:00 PM
+2017-05-07 13:00:00-04:00
+Capitalfc United Red 01B
+Delaware Rush De Rush Black '01
+=====> name = Trinidad Rec Center
+Trinidad Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/13/2017</font>
+#3928
+game_time = 6:30 PMRescheduled
+Bad time found - will skip game
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/14/2017</font>
+#3954
+game_time = 5:30 PM
+2017-05-14 17:30:00-04:00
+Capitalfc United Red 01B
+Maryland Rush Nero 01
+=====> name = Trinidad Rec Center
+Trinidad Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">6/4/2017</font>
+#3961
+game_time = 3:00 PM
+2017-06-04 15:00:00-04:00
+Sac Showcase Blue
+Capitalfc United Red 01B
+=====> name = Centennial HS Stadium
+Centennial HS Stadium
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">2/26/2017</font>
+#5066
+game_time = 5:00 PM
+2017-02-26 17:00:00-05:00
+Capitalfc Dc Cosmos
+Maryland Rush United 99
+=====> name = Randall Rec Center
+Randall Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">3/19/2017</font>
+#5080
+game_time = 6:00 PM
+2017-03-19 18:00:00-04:00
+Capitalfc Dc Cosmos
+Md Alliance Futbol Alliance Fc 99
+=====> name = Trinidad Rec Center #1
+Trinidad Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">3/26/2017</font>
+#5062
+game_time = 3:30 PM
+2017-03-26 15:30:00-04:00
+Aufc Annandale United Fc 99
+Capitalfc Dc Cosmos
+=====> name = Mason District Park Turf
+Mason District Park Turf
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/9/2017</font>
+#5070
+game_time = 1:00 PM
+2017-04-09 13:00:00-04:00
+Brausa United Futebol Bufc 99
+Capitalfc Dc Cosmos
+=====> name = Concordia Prep Turf Field 01
+Concordia Prep Turf Field 01
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/22/2017</font>
+#5094
+game_time = 6:30 PM
+2017-04-22 18:30:00-04:00
+Alliance Galaxy
+Capitalfc Dc Cosmos
+=====> name = Ballenger Creek Park Turf
+Ballenger Creek Park Turf
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/30/2017</font>
+#5076
+game_time = 3:30 PM
+2017-04-30 15:30:00-04:00
+Capitalfc Dc Cosmos
+Obgc Soccer Obgc Rangers Blue 99
+=====> name = Trinidad Rec Center #1
+Trinidad Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/14/2017</font>
+#5085
+game_time = 3:30 PM
+2017-05-14 15:30:00-04:00
+Capitalfc Dc Cosmos
+Fsc Dragons 99
+=====> name = Trinidad Rec Center #1
+Trinidad Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/21/2017</font>
+#5090
+game_time = 12:00 PM
+2017-05-21 12:00:00-04:00
+South Central Pa Scpasa 99 Lions
+Capitalfc Dc Cosmos
+=====> name = Gettysburg Area Middle School #1
+Gettysburg Area Middle School #1
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">3/26/2017</font>
+#5169
+game_time = 4:00 PM
+2017-03-26 16:00:00-04:00
+Capital Futbol Diplomats
+Team America 99 Red
+=====> name = Trinidad Rec Center #1
+Trinidad Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/8/2017</font>
+#5176
+game_time = 3:00 PM
+2017-04-08 15:00:00-04:00
+Burke Athletic Bac United
+Capital Futbol Diplomats
+=====> name = Lake Braddock Secondary School Stadium
+Lake Braddock Secondary School Stadium
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">4/29/2017</font>
+#5183
+game_time = 1:00 PM
+2017-04-29 13:00:00-04:00
+Fci - Estudiantes
+Capital Futbol Diplomats
+=====> name = Rosedale Rec Center
+Rosedale Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/6/2017</font>
+#5180
+game_time = 4:00 PM
+2017-05-06 16:00:00-04:00
+Capital Futbol Diplomats
+Soccer Of Columbia Premier White
+=====> name = Ridge Rd Recreation DC #1
+Ridge Road Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/7/2017</font>
+#5186
+game_time = 6:00 PM
+2017-05-07 18:00:00-04:00
+A3 Cosmos
+Capital Futbol Diplomats
+=====> name = Bell Branch Park B
+Bell Branch Park B
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/13/2017</font>
+#5192
+game_time = 1:00 PM
+2017-05-13 13:00:00-04:00
+Capital Futbol Diplomats
+Ellicott City City 1999 Boys Black
+=====> name = Rosedale Recreation Center Field
+Rosedale Rec Center
+!!!!!!!!!!!!!!!!!!!
+gd = <font class="PageHeading">5/20/2017</font>
+#5173
+game_time = 12:00 PM
+2017-05-20 12:00:00-04:00
+Locomotive Fc 1999 Boys
+Capital Futbol Diplomats
+=====> name = Cedar Ridge School #1
+Cedar Ridge School #1
+Done with EDP moving on to other leagues
+{'url': 'http://www.odsl.org/teams/club/17029528.html', 'league': 'ODSL'}
+{'url': 'http://www.ncsl-soccer.com/teams/club/15599440.html', 'league': 'NCSL'}
+===================================
+Team: Capitalfc Strikers Red
+===================================
+Team: Capital Futbol Strikers Red
+===================================
+Team: Capitalfc United Red 02B
+===================================
+Team: Capitalfc United Red 01B
+===================================
+Team: Capitalfc Dc Cosmos
+===================================
+Team: Capital Futbol Diplomats
+===================================
+Team: CFC 07B Red
+=====> name = South Lakes High School Field #1B (small-sided)
+=====> name = Watkins ES
+=====> name = Pine Ridge Park Field #6B
+=====> name = Watkins ES
+=====> name = Watkins ES
+=====> name = Oakton HS #3R
+=====> name = Watkins ES
+=====> name = Ben Brenman Park Field 1B
+===================================
+Team: CFC 07B White
+=====> name = Sherando Park #1B
+=====> name = Watkins ES
+=====> name = Pine Ridge Park Field #4B
+=====> name = Rosedale Rec Center, DC Small sided
+=====> name = Watkins ES
+=====> name = Pine Ridge Park Field #4B
+=====> name = Watkins ES
+=====> name = Grist Mill Park #5B
+===================================
+Team: CFC 06B White
+=====> name = Watkins ES
+=====> name = Emerald Hill ES
+=====> name = Watkins ES
+=====> name = Watkins ES
+=====> name = Cedar Ridge Childrens Home 8v8
+=====> name = Watkins ES
+=====> name = Ben Brenman Park Field 1B
+=====> name = Pine Ridge Park Field #6B
+===================================
+Team: CFC 06G Red
+=====> name = Watkins ES
+=====> name = Long Park Turf #5B
+=====> name = Watkins ES
+=====> name = Watkins ES
+=====> name = Conklin Park # 2
+=====> name = Pine Ridge Park Field #6A
+=====> name = Oakton HS #3L
+=====> name = Watkins ES
+===================================
+Team: CFC 05G White
+=====> name = Watkins ES
+=====> name = Long Park Turf #5B
+=====> name = Watkins ES
+=====> name = Watkins ES
+=====> name = Ben Brenman Park Field 1B
+=====> name = Lake Braddock Secondary School Bermuda Field
+=====> name = Riverside Field #3
+=====> name = Watkins ES
+===================================
+Team: CFC 98G
+=====> name = MonU Park Field 1
+=====> name = Ridge Road Rec Center  DC full-sided field
+=====> name = Embrey Mill Athletic Fields Embrey Mill #3
+=====> name = Ridge Road Rec Center  DC full-sided field
+=====> name = Tyrell Field Complex Tyrell #1
+=====> name = Ridge Road Rec Center  DC full-sided field
+=====> name = Fred Crabtree Park Field 3
+=====> name = Ridge Road Rec Center  DC full-sided field
+===================================
+Team: CFC Red Stars 08B
+=====> name = Bryantown Sports Complex #01
+=====> name = Shepherd ES
+=====> name = Pine Ridge Park #4 Left
+=====> name = Watkins Elementary School  DC #1
+=====> name = Watkins Elementary School  DC #1
+=====> name = South County MS Turf #2B (small sided)
+=====> name = Watkins Elementary School  DC #1
+=====> name = Watkins Elementary School  DC #1
+=====> name = Watkins Elementary School  DC #1
+===================================
+Team: CFC Red Stars 06B (Red)
+=====> name = Watkins Elementary School  DC #1
+=====> name = Chancellors Run Reg Park #1
+=====> name = Watkins Elementary School  DC #1
+=====> name = Watkins Elementary School  DC #1
+=====> name = Oakton HS 3R
+=====> name = SYA Complex #4
+=====> name = Oakton HS 3R
+=====> name = Watkins Elementary School  DC #1
+=====> name = Sherando #6 small
+===================================
+Team: CFC Strikers 05B (White)
+=====> name = Watkins Elementary School  DC #1
+=====> name = Watkins Elementary School  DC #1
+=====> name = Watkins Elementary School  DC #1
+=====> name = Crownsville Hospital #3
+=====> name = Nike Park 7A
+=====> name = Watkins Elementary School  DC #1
+=====> name = OBGC Community Park #2A
+=====> name = Eastgate Park #2
+=====> name = Morgan Grove Park Field 2  Small Sided (u12)
+===================================
+Team: CFC Fury 04B Red
+=====> name = Franconia Park #4
+=====> name = Ridge Road Rec Center  DC Full sided field
+=====> name = Maryland SoccerPlex #24
+=====> name = Ridge Road Rec Center  DC Full sided field
+=====> name = Randall Recreation Center #1 Full
+=====> name = Maryland SoccerPlex #15
+=====> name = Randall Recreation Center #1 Full
+=====> name = Washington-Lee HS Stadium
+=====> name = Meade HS Field C
+===================================
+Team: CFC Fury 04B (White)
+=====> name = Urbana High School Stadium Turf
+=====> name = Ridge Road Rec Center  DC Full sided field
+=====> name = Bull Run Park #1
+=====> name = Ridge Road Rec Center  DC Full sided field
+=====> name = Greenbrier Pk Upper (Yorktown HS Stad.)
+=====> name = Randall Recreation Center #1 Full
+=====> name = Bell Branch Athletic Complex Field B
+=====> name = Ridge Road Rec Center  DC Full sided field
+=====> name = Ridge Road Rec Center  DC Full sided field
+===================================
+Team: CFC Red Stars 03B
+=====> name = Fairland Rec Park #5 TURF
+=====> name = Ridge Road Rec Center  DC Full sided field
+=====> name = Randall Recreation Center #1 Full
+=====> name = Ridge Road Rec Center  DC Full sided field
+=====> name = Lake Braddock  Secondary School Stadium Field
+=====> name = Culpeper Complex #2
+=====> name = Ridge Road Rec Center  DC Full sided field
+=====> name = Shepherd University Soccer Complex Field #1
+=====> name = Howard CC #1
+===================================
+Team: CFC United White
+=====> name = Randall Recreation Center #1 Full
+=====> name = Lake Fairfax #1
+=====> name = Bell Branch Athletic Complex Field B
+=====> name = Randall Recreation Center #1 Full
+=====> name = Annandale HS Stadium
+=====> name = Ridge Road Rec Center  DC Full sided field
+=====> name = Ridge Road Rec Center  DC Full sided field
+=====> name = Loisdale Park Field 1 - Turf
+=====> name = Ridge Road Rec Center  DC Full sided field
+===================================
+Team: CFC Red Stars 08G
+=====> name = Hayfield High School Practice Turf #A
+=====> name = Watkins Elementary School  DC #1
+=====> name = Watkins Elementary School  DC #1
+=====> name = Bles Park #2
+=====> name = Eastgate Park #2
+=====> name = Hooes Road Park #4A
+=====> name = Jones Branch Park #2 Small
+=====> name = Watkins Elementary School  DC #1
+=====> name = Watkins Elementary School  DC #1
+===================================
+Team: CFC Red Stars 07G
+=====> name = Hellwig Park #8A
+=====> name = Watkins Elementary School  DC #1
+=====> name = Leesburg F.C. Complex (KMO) #2
+=====> name = WT Woodson HS West Turf - SS1
+=====> name = Watkins Elementary School  DC #1
+=====> name = Lockmeade Park #1
+=====> name = Watkins Elementary School  DC #1
+=====> name = Gov. Thomas Johnson MS # 3
+=====> name = Watkins Elementary School  DC #1
+===================================
+Team: CFC Red Stars 05G (Red)
+=====> name = Lake Braddock  Secondary School Bermuda Grass field
+=====> name = Watkins Elementary School  DC #1
+=====> name = Watkins Elementary School  DC #1
+=====> name = Watkins Elementary School  DC #1
+=====> name = Culpeper Complex #4
+=====> name = Fields Park
+=====> name = Watkins Elementary School  DC #1
+=====> name = Police Field RF #1
+=====> name = South County MS Turf #2A (small sided)
+===================================
+Team: CFC Red Stars 03G
+=====> name = Bryantown Sports Complex #12
+=====> name = Ridge Road Rec Center  DC Full sided field
+=====> name = Covenant Park #8
+=====> name = Ridge Road Rec Center  DC Full sided field
+=====> name = Randall Recreation Center #1 Full
+=====> name = Reservoir High School Field 1 (turf)
+=====> name = Ridge Road Rec Center  DC Full sided field
+=====> name = Marshall Northern Complex Soccer Field #1
+=====> name = Ridge Road Rec Center  DC Full sided field

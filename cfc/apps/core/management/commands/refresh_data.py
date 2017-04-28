@@ -34,7 +34,7 @@ class Command(BaseCommand):
         page_team_name = pagesoup.select('span#ctl00_MainBody_TeamName')[0].text
         if page_team_name.lower().strip() != teamname.strip().lower():
             print ("Team does not match page!!!!!!!!!!!!!!!!!!!!!!!")
-            return
+            # return
 
         #==========================================================
         # Basic team info
