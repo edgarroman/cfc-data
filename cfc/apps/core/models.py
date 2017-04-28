@@ -57,6 +57,10 @@ class Game(TimeStampedModel):
     league_key = models.CharField(max_length=255,blank=True)
 
     def __str__(self):
-        return self.schedule.strftime("%Y %m %d T %I %M")
+        return (self.schedule.strftime("%m/%d %I:%M") + 
+                ' - ' + 
+                str(self.home_team) + 
+                ' vs. ' + 
+                str(self.away_team))
 
 

@@ -4,14 +4,11 @@ from django.template import RequestContext
 from cfc.apps.core.models import Game
 import datetime
 from itertools import groupby
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 from django.views.decorators.clickjacking import xframe_options_exempt
 
 DAYSTIMEWINDOW = 7
 #DAYSTIMEWINDOW = 90
-
-def extract_date(game):
-    return game.schedule.date()
 
 def extract_field(game):
     return game.field
@@ -24,43 +21,20 @@ def home(request):
 
     context = dict()
 
-    now_day = datetime.datetime.now()
-#    now_day = datetime.datetime(2016,9,1)
-    delta = datetime.timedelta(DAYSTIMEWINDOW-now_day.weekday())
-    next_weekend = now_day + delta
-    print ("next_weekend = %s" % next_weekend)
-    club = 'CFC'
+    today = datetime.datetime.now()
+    days = OrderedDict()
+    for single_date in (today + datetime.timedelta(n) for n in range(DAYSTIMEWINDOW-today.weekday())):
+        games_in_day = Game.objects.filter(schedule__date=single_date,field__cfc_home_field=True).order_by('field__name','schedule')
 
-    games = Game.objects.filter(field__cfc_home_field=True,
-        schedule__gt=now_day,
-        schedule__lt=next_weekend).order_by('schedule','field')
+        if games_in_day:
+            games_on_field_per_day = OrderedDict()
+            for field, games_on_field in groupby(games_in_day, key=extract_field):
+                game_list = []
+                for game in games_on_field:
+                    game_list.append(game)
+                games_on_field_per_day[field] = game_list
+            days[single_date] = dict(games_on_field_per_day)
 
-    print("===================================")
-    for game in games:
-        print (str(game) + ' - ' + str(game.home_team) + ' - '+ str(game.field))
-
-#    days = { t: list(g) for t, g in groupby(games, key=extract_date) }
-
-    days = defaultdict(dict)
-    for day, games_in_day in groupby(games, key=extract_date):
-
-        games_on_field_per_day = defaultdict(list)
-
-        for field, games_on_field in groupby(games_in_day, key=extract_field):
-
-            for game in games_on_field:
-                games_on_field_per_day[field].append(game)
-
-        days[day] = dict(games_on_field_per_day)
-
-    #########################################################################
-    # Validation
-
-#    print('>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<')
-#    pp.pprint(days)
-    context['days'] =  dict(days)
+    context['days'] =  days
 
     return render(request, 'home.html', context)
-    #return HttpResponse('Hello')
-
-#set([d.date() for d in date_list])
