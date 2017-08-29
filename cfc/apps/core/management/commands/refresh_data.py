@@ -231,7 +231,8 @@ class Command(BaseCommand):
             team.league = league
             team.age_division = t.td.text.strip().split()[0]
             t2 = t.td.next_sibling.next_sibling
-            team.name = t2.text.strip()
+            # 8/29/2017 - Clarified team name to be the anchor text only
+            team.name = t2.a.text.strip()
             url_path = t2.a['href']
             team.url = urljoin(urldomain,url_path)
             print ('Team: %s (%s) "%s"' % (team.name, team.age_division, team.url))
