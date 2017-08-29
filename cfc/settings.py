@@ -230,7 +230,7 @@ LOGGING = {
         'file': {
             'level': 'INFO',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': 'app.log',
+            'filename': 'application.log',
             'maxBytes' : U_LOGFILE_SIZE,
             'backupCount' : U_LOGFILE_COUNT,
             'formatter': 'verbose'
@@ -245,8 +245,10 @@ LOGGING = {
         'django': {
             'handlers':['file','console'],
             'level':'INFO',
+            'propagate': True,
         },
-        'app.apps': {
+        ## Todo: this must be your app
+        'cfc.apps': {
             'handlers': ['file','console'],
             'level': 'INFO',
         },

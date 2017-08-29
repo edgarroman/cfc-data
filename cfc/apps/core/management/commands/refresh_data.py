@@ -33,7 +33,7 @@ class Command(BaseCommand):
         # Sanity check
         page_team_name = pagesoup.select('span#ctl00_MainBody_TeamName')[0].text
         if page_team_name.lower().strip() != teamname.strip().lower():
-            #print ("Team does not match page!!!!!!!!!!!!!!!!!!!!!!!")
+            log.info("Team does not match page!!!!!!!!!!!!!!!!!!!!!!!")
             # return
 
         #==========================================================
@@ -69,43 +69,43 @@ class Command(BaseCommand):
         game_dates = schedt.findAll('font',{'class':'PageHeading'})
         headers = schedt.findAll('tr',{'class':'HeadingC'})
         for gd,h in zip(game_dates,headers):
-            #print ('!!!!!!!!!!!!!!!!!!!')
-            #print ("gd = %s" % gd)
+            log.info ('!!!!!!!!!!!!!!!!!!!')
+            log.info ("gd = %s" % gd)
             gdata = h.next_sibling
             column1 = gdata.td
             league_key = column1.text.strip()
-            #print (league_key)
+            log.info (league_key)
             # time
             column2 = column1.next_sibling
             game_time = column2.text.strip()
-            #print ("game_time = %s" % game_time)
+            log.info ("game_time = %s" % game_time)
             try:
                 game_date_notz = parse(gd.text.strip() + "T" + game_time)
             except ValueError:
-                #print ("Bad time found - will skip game")
+                log.info ("Bad time found - will skip game")
                 continue
 
             eastern=timezone('US/Eastern')
             game_date = eastern.localize(game_date_notz)
-            #print (game_date)
+            log.info (game_date)
 
             # home_team
             column3 = column2.next_sibling
             htname = column3.text.strip()
             ht = self._process_team(htname.lower(), htname.title(), league)
-            #print (ht)
+            log.info (ht)
 
             # away_team
             column5 = column3.next_sibling.next_sibling
             atname = column5.text.strip()
             at = self._process_team(atname.lower(), atname.title(), league)
-            #print (at)
+            log.info (at)
 
             # field
             column7 = column5.next_sibling.next_sibling
             fname = column7.text.strip()
             field = self._process_field(fname.lower(), fname,league)
-            #print (field)
+            log.info (field)
 
             try:
                 game = Game.objects.get(league_key=league_key)
@@ -146,20 +146,20 @@ class Command(BaseCommand):
 
     def _process_field(self, key, name, league=None):
 
-        #print ('=====> name = %s' % name)
+        log.info ('=====> name = %s' % name)
         try:
             lf = LeagueField.objects.get(league_key=key)
         except LeagueField.DoesNotExist:
-            #print ('league field does not exist, checking alias for: "%s"' % name.strip())
+            log.info ('league field does not exist, checking alias for: "%s"' % name.strip())
             # Ok this is the first time we found this field for this league
             # now let's see if there is a predefined alias
             if name.strip() in settings.FIELD_ALIAS.keys():
-                #print ('alias field does exist!!')
+                log.info ('alias field does exist!!')
                 # found an alias, then get the existing Field object
                 try:
                     field = Field.objects.get(name=settings.FIELD_ALIAS[name])
                 except Field.DoesNotExist:
-                    #print ('alias field does not exist')
+                    log.info ('alias field does not exist')
                     field = Field()
                     field.name = settings.FIELD_ALIAS[name]
                 field.cfc_home_field = True
@@ -168,7 +168,7 @@ class Command(BaseCommand):
                 field = Field()
                 field.name = name.strip()
             field.save()
-            #print ('createing field %s' % field)
+            log.info ('creating field %s' % field)
 
 
             lf = LeagueField()
@@ -212,7 +212,7 @@ class Command(BaseCommand):
             g.field = f
 
             g.save()
-#            print ("saved game: %s" % g)
+#            log.info ("saved game: %s" % g)
 
     def parse_league_page(self,pagesoup,urldomain, league):
 
@@ -235,19 +235,19 @@ class Command(BaseCommand):
             team.name = t2.a.text.strip()
             url_path = t2.a['href']
             team.url = urljoin(urldomain,url_path)
-            #print ('Team: %s (%s) "%s"' % (team.name, team.age_division, team.url))
+            log.info ('Team: %s (%s) "%s"' % (team.name, team.age_division, team.url))
             team.save()
 
     def handle(self, *args, **options):
-        print ('running refresh')
-        print ('===================================')
-
+        log.info ('running refresh')
+        log.info ('===================================')
+        
         for t in settings.LEAGUE_EDP_TEAMS:
             self._process_edp_schedule(t['team'].title(),t['url'])
 
-        print ('Done with EDP moving on to other leagues')
+        log.info ('Done with EDP moving on to other leagues')
         for l in settings.LEAGUE_CFC_PAGES:
-            print (l)
+            log.info (l)
             try:
                 league = League.objects.get(name=l['league'])
             except League.DoesNotExist:
@@ -263,8 +263,8 @@ class Command(BaseCommand):
         # Now process the database
         teams = Team.objects.filter(club="CFC")
         for team in teams:
-            print ('===================================')
-            #print ("Team: %s" % team)
+            log.info ('===================================')
+            log.info ("Team: %s" % team)
 
             if not team.url:
                 continue
@@ -272,6 +272,6 @@ class Command(BaseCommand):
 
             if pagesoup:
                 self.current_team = team
-                #print ("got page")
+                log.info ("got page")
                 #team = verify_team_info(pagesoup, team)
                 schedule = self.get_demosphere_schedule(pagesoup)
