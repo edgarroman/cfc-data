@@ -7,8 +7,8 @@ from itertools import groupby
 from collections import defaultdict, OrderedDict
 from django.views.decorators.clickjacking import xframe_options_exempt
 
-DAYSTIMEWINDOW = 7
-#DAYSTIMEWINDOW = 90
+# Number of days to show
+DAYSTIMEWINDOW = 14
 
 def extract_field(game):
     return game.field
