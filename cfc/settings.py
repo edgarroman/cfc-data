@@ -116,7 +116,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-# ======================================================
+# =====================================================
 LEAGUE_CFC_PAGES = [
     { 'league' : 'ODSL', 'url' : 'http://www.odsl.org/_element_display/#%2F91918%2Fteams%2Fclub%2F17029528.html%3Fdummy%3D1506188398650'},
     { 'league' : 'NCSL', 'url' : 'http://www.ncsl-soccer.com/teams/club/15599440.html'},
