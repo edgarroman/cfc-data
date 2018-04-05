@@ -118,8 +118,8 @@ USE_TZ = True
 
 # ======================================================
 LEAGUE_CFC_PAGES = [
-    { 'league' : 'ODSL', 'url' : 'http://www.odsl.org/_element_display/#%2F91918%2Fteams%2Fclub%2F17029528.html%3Fdummy%3D1506188398650'},
-    { 'league' : 'NCSL', 'url' : 'http://www.ncsl-soccer.com/teams/club/15599440.html'},
+    { 'league' : 'ODSL', 'url' : 'http://elements.demosphere.com/91918/teams/club/17029528.html'},
+    { 'league' : 'NCSL', 'url' : 'http://elements.demosphere.com/80738/teams/club/15599440.html'},
 ]
 
 # EDP Teams are a PITA so we have to list them individually
