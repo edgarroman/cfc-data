@@ -25,7 +25,7 @@ SECRET_KEY = "ulzdg%y02jjjug(*k5ctn4pud8iz$^78$bkjsxifq%*=b%pkz="
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["fields.capitalfc.org"]
 
 
 # Application definition
