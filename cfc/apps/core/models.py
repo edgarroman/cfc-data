@@ -46,6 +46,9 @@ class Field(TimeStampedModel):
     name = models.CharField(max_length=255)
     cfc_home_field = models.BooleanField(default=False)
 
+    class Meta:
+        ordering = ["name"]
+
     def __str__(self):
         return self.name
 
@@ -58,6 +61,9 @@ class LeagueField(TimeStampedModel):
 
     def __str__(self):
         return self.name
+
+    class Meta:
+        ordering = ["name"]
 
 
 class Game(TimeStampedModel):

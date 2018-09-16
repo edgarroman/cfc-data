@@ -110,7 +110,7 @@ USE_TZ = True
 # ======================================================
 LEAGUE_CFC_PAGES = [
     {"league": "ODSL", "url": "http://elements.demosphere.com/91918/teams/club/17029528.html"},
-    {"league": "NCSL", "url": "http://elements.demosphere.com/80738/teams/club/15599440.html"},
+    {"league": "NCSL", "url": "http://elements.demosphere.com/80738/teams/club/92731272.html"},
 ]
 
 # EDP Teams are a PITA so we have to list them individually
