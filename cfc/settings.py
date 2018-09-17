@@ -164,6 +164,8 @@ FIELD_ALIAS = {
     "Rosedale Rec Center  DC Small sided field 1": "Rosedale Rec Center",
     "Rosedale Rec Center, DC full sided field": "Rosedale Rec Center",
     "Rosedale Recreation Center Field": "Rosedale Rec Center",
+    "Shepherd ES": "Shepherd Elementary School",
+    "Shepherd Field": "Shepherd Elementary School",
 }
 
 # =====================================================
